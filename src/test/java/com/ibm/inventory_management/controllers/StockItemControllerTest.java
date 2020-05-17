@@ -1,5 +1,5 @@
 
-ckage com.ibm.inventory_management.controllers;
+package com.ibm.inventory_management.controllers;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.spy;
