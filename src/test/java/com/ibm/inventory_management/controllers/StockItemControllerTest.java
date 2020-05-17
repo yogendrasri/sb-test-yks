@@ -28,6 +28,7 @@ StockItemController controller;
             mockMvc.perform(get("/stock-items").accept("application/json"))
                     .andExpect(content().json("[]"));
         }
+}
 
 }
 
