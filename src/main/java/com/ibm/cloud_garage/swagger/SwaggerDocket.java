@@ -24,15 +24,17 @@ public class SwaggerDocket {
         super();
     }
 
+
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(buildApiRequestHandler())
-                .paths(PathSelectors.any())
+                .paths(PathSelectors.regex(".*stock-item.*"))
                 .build()
                 .apiInfo(buildApiInfo());
     }
+
 
     protected Predicate<RequestHandler> buildApiRequestHandler() {
         if (!StringUtils.isEmpty(config.getBaseApiPackage())) {
