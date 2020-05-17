@@ -1,4 +1,4 @@
-ckage com.ibm.inventory_management.services;
+package com.ibm.inventory_management.services;
 
 import static java.util.Arrays.asList;
 

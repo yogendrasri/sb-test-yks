@@ -1,4 +1,4 @@
-ckage com.ibm.inventory_management.app;
+package com.ibm.inventory_management.app;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

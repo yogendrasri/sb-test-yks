@@ -1,5 +1,5 @@
 
-ckage com.ibm.inventory_management.controllers;
+package com.ibm.inventory_management.controllers;
 
 public class StockItemController {
 
